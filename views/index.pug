@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    
+    script(src='https://cdn.plot.ly/plotly-latest.min.js').
+    script(src='http://cdnjs.cloudflare.com/ajax/libs/mathjs/3.16.4/math.min.js').
+    script(src='/js/main.js').
+  body
+    #plot
+    input(id="add", type="text", placeholder="func")
+    input(id="calc", type="number", placeholder="calc")
+    button(id="clear") Clear
+    button(id="train") Train
+    span(id="output")

@@ -1,0 +1,29 @@
+{
+  "name": "ai-machine_learning",
+  "version": "1.0.0",
+  "description": "Machine learning playground",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damageesp/ai-machine_learning.git"
+  },
+  "keywords": [
+    "machine",
+    "learning"
+  ],
+  "author": "DamageESP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damageesp/ai-machine_learning/issues"
+  },
+  "homepage": "https://github.com/damageesp/ai-machine_learning#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mathjs": "^3.16.4",
+    "pug": "^2.0.0-rc.4"
+  }
+}
